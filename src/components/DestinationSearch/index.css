@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  list-style: none;
+}
+.head {
+  font-family: 'Roboto';
+}
+.search {
+  border-width: 0px;
+  background-color: #f1f5f9;
+  padding: 8px;
+}
+.searchBox {
+  display: flex;
+  flex-direction: row;
+}
+.search-icon {
+  width: 12%;
+  background-color: #f1f5f9;
+}
